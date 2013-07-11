@@ -53,6 +53,8 @@ extern "C" {
 #include <sys/uio.h>
 #include <sys/wait.h>
 
+#include <linux/sched.h>
+
 #include "google/coredumper.h"
 #include "linux_syscall_support.h"
 #include "linuxthreads.h"
